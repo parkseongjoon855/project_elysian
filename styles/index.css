@@ -1,0 +1,84 @@
+header {
+    background-color:#000;
+}
+header .right_menu {
+    display:flex;
+    justify-content:space-between;
+}
+header .right_menu a {}
+header .right_menu a p {
+    color:#fff;
+}
+main {}
+main .banner1 {}
+main .banner1 img {}
+main .banner1 span {}
+main .banner1 p {}
+main .elyslan_gangchon {}
+main .elyslan_gangchon a {}
+main .elyslan_gangchon a p {}
+main .elyslan_jeju {}
+main .elyslan_jeju a {}
+main .elyslan_jeju a p {}
+main .event {}
+main .event h2 {}
+main .event p {}
+main .event .pool {}
+main .event .pool img {}
+main .event .pool span {}
+main .event .pool p {}
+main .event .food {}
+main .event .food img {}
+main .event .food span {}
+main .event .food p {}
+main .event .camping {}
+main .event .camping img {}
+main .event .camping span {}
+main .event .camping p {}
+main .event .camping2 {}
+main .event .camping2 img {}
+main .event .camping2 span {}
+main .event .camping2 p {}
+main .banner2 {}
+main .banner2 a {}
+main .banner2 img {}
+main .banner2 p {}
+main .room {}
+main .room .packge1 {}
+main .room .packge1 img {}
+main .room .packge1 span {}
+main .room .packge1 p {}
+main .room .packge2 {}
+main .room .packge2 img {}
+main .room .packge2 span {}
+main .room .packge2 p {}
+main .room .packge3 {}
+main .room .packge3 img {}
+main .room .packge3 span {}
+main .room .packge3 p {}
+main .room .packge4 {}
+main .room .packge4 img {}
+main .room .packge4 span {}
+main .room .packge4 p {}
+main .room .move_btn {}
+main .notice {}
+main .notice h3 {}
+main .notice p {}
+main .notice .right_plus {}
+main .notice .right_plus a img {}
+main .notice span {}
+main .notice p {}
+main .banner4 {}
+main .banner4 img {}
+main .banner4 h4 {}
+main .banner4 p {}
+main .banner4 a {}
+footer {}
+footer .up_menu {}
+footer .up_menu a {}
+footer .up_menu a p {}
+footer .down_menu {}
+footer .down_menu h4 {}
+footer .down_menu p {}
+footer a img {}
+footer img {}
