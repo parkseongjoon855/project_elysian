@@ -88,7 +88,111 @@ main .elyslan_jeju a p {
     font-size:1.125rem;
     font-weight:400;
 }
+/* 수정본 event_wrap(아래) */
 main .event_wrap {
+    width:1600px; margin:0 auto; background:aqua;
+}
+main .event_wrap .event_name {
+    height:106px; background:yellow;
+    /* 정렬하는 자식 event2, right_icon 그 부모 flex */
+    display:flex;
+    justify-content: space-between;/* 양쪽 끝 */
+    align-items:center;/* 수직 중앙(높이 설정 필수) */
+}
+main .event_wrap .event_name .event2 {}
+main .event_wrap .event_name .event2 h2 {
+    font-size:40px; font-weight:600;
+    color:#fff;
+}
+main .event_wrap .event_name .event2 p {
+    font-size:1.125rem;
+    color:#d9d9d9;
+    font-weight:500;
+}
+main .event_wrap .event_name .right_icon {}
+main .event_wrap .event_name .right_icon a {}
+main .event_wrap .event_name .right_icon a img {}
+main .event_wrap .event_total {
+    display:flex; 
+    background:lime;
+    
+}
+main .event_wrap .event_total .event3 {
+    width:400px; height:600px; 
+    background:url(../images/pool.png); margin-right:50px;
+    position:relative;
+}
+main .event_wrap .event_total .event3 a {
+    font-size:14px;
+    color:#fff;
+    font-weight:500;
+    bottom:250px;
+    padding-bottom:10px;
+    position:absolute;
+    background-color:#00A2AC;
+}
+main .event_wrap .event_total .event3 span {
+    font-size:2rem;
+    color:#fff;
+    font-weight:600;
+    bottom:200px;
+    padding-bottom:10px;
+    position:absolute;
+}
+main .event_wrap .event_total .event3 p {
+    color:#fff;
+    font-size:1.125rem;
+    padding-top:400px;
+}
+main .event_wrap .event_total .event5 {
+    position:relative;
+}
+main .event_wrap .event_total .event5 .event {
+    display:flex; background:green;
+}
+main .event_wrap .event_total .event5 .event .food {
+    background:url(../images/food.png);
+}
+main .event_wrap .event_total .event5 .event .camping {
+    background:url(../images/camping.png);
+}
+main .event_wrap .event_total .event5 .event .camping2 {
+    background:url(../images/camping2.png);
+}
+main .event_wrap .event_total .event5 .event div {
+    width:375px; height:475px;
+    background:pink; margin-right:20px;
+}
+main .event_wrap .event_total .event5 .event div a {
+    font-size:14px;
+    color:#fff;
+    font-weight:500;
+    bottom:250px;
+    padding-bottom:10px;
+    position:absolute;
+    background-color:#00A2AC;
+    text-align:center;
+}
+main .event_wrap .event_total .event5 .event div span {
+    font-size:32px;
+    color:#fff;
+    font-weight:600;
+    bottom:200px;
+    padding-bottom:10px;
+    position:absolute;
+}
+main .event_wrap .event_total .event5 .event div p {
+    color:#fff;
+    font-size:1.125rem;
+    padding-top:400px;
+}
+main .event_wrap .event_total .event5 .event4 {
+    padding-top:30px;
+}
+main .event_wrap .event_total .event5 .event4 a {}
+main .event_wrap .event_total .event5 .event4 a img {}
+/* 기존 event_wrap 선택자와 값(아래) */
+/* main .event_wrap {
 
 }
 main .event_wrap .event_name {
@@ -226,7 +330,7 @@ main .event .camping2 span {
 main .event .camping2 p {
     color:#fff;
     font-size:1.125rem;
-}
+} */
 main .banner2 {
     background-image:url(../images/banner2.png);
     width:1600px;
