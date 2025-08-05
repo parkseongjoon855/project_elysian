@@ -90,10 +90,10 @@ main .elyslan_jeju a p {
 }
 /* 수정본 event_wrap(아래) */
 main .event_wrap {
-    width:1600px; margin:0 auto; background:aqua;
+    width:1600px; margin:0 auto; 
 }
 main .event_wrap .event_name {
-    height:106px; background:yellow;
+    height:106px; 
     /* 정렬하는 자식 event2, right_icon 그 부모 flex */
     display:flex;
     justify-content: space-between;/* 양쪽 끝 */
@@ -101,8 +101,8 @@ main .event_wrap .event_name {
 }
 main .event_wrap .event_name .event2 {}
 main .event_wrap .event_name .event2 h2 {
-    font-size:40px; font-weight:600;
-    color:#fff;
+    font-size:25px; font-weight:600;
+    
 }
 main .event_wrap .event_name .event2 p {
     font-size:1.125rem;
@@ -114,7 +114,7 @@ main .event_wrap .event_name .right_icon a {}
 main .event_wrap .event_name .right_icon a img {}
 main .event_wrap .event_total {
     display:flex; 
-    background:lime;
+    
     
 }
 main .event_wrap .event_total .event3 {
@@ -148,7 +148,7 @@ main .event_wrap .event_total .event5 {
     position:relative;
 }
 main .event_wrap .event_total .event5 .event {
-    display:flex; background:green;
+    display:flex; 
 }
 main .event_wrap .event_total .event5 .event .food {
     background:url(../images/food.png);
@@ -161,7 +161,8 @@ main .event_wrap .event_total .event5 .event .camping2 {
 }
 main .event_wrap .event_total .event5 .event div {
     width:375px; height:475px;
-    background:pink; margin-right:20px;
+    background:pink; margin-right:15px;
+    padding-left:10px;
 }
 main .event_wrap .event_total .event5 .event div a {
     font-size:14px;
@@ -174,7 +175,7 @@ main .event_wrap .event_total .event5 .event div a {
     text-align:center;
 }
 main .event_wrap .event_total .event5 .event div span {
-    font-size:32px;
+    font-size:25px;
     color:#fff;
     font-weight:600;
     bottom:200px;
@@ -336,18 +337,44 @@ main .banner2 {
     width:1600px;
     height:240px;
     background-color:#000;
+    
 }
 main .room {
     display:flex;
+    background-color:aqua;
+    padding-top:62px;
 }
 main .room .packge1 {}
 main .room .packge1 img {}
-main .room .packge1 span {}
-main .room .packge1 p {}
+main .room .packge1 a span {
+    font-size:18px;
+    font-weight:500;
+}
+main .room .packge1 p {
+    color:#d9d9d9;
+}
+main .room .packge1 a {
+    font-size:14px;
+    font-weight:600px;
+    color:#fff;
+    background-color:#00A2AC;
+}
+main .room .packge1 a h3 {
+    font-size:18px;
+    font-weight:600;
+}
 main .room .packge2 {}
-main .room .packge2 img {}
-main .room .packge2 span {}
-main .room .packge2 p {}
+main .room .packge2 a {}
+main .room .packge2 a img {}
+main .room .packge2 a h3 {
+    font-size:20px;
+}
+main .room .packge2 a span {
+    font-size:18px;
+}
+main .room .packge2 a p {
+    color:#d9d9d9;
+}
 main .room .packge3 {}
 main .room .packge3 img {}
 main .room .packge3 span {}
