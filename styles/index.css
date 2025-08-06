@@ -339,21 +339,44 @@ main .banner2 {
     background-color:#000;
     
 }
+main .banner2 a {
+    color:#fff;
+    text-align:center;
+    
+}
 main .room {
     display:flex;
     background-color:aqua;
     padding-top:62px;
+
 }
-main .room .packge1 {}
-main .room .packge1 img {}
-main .room .packge1 a span {
+main .room a {
+    font-size:14px;
+    background-color:#00A2AC;
+    color:#fff;
+}
+main .room a span {
     font-size:18px;
     font-weight:500;
 }
-main .room .packge1 p {
+main .room a p {
+    color:#d9d9d9;
+    font-size:14px;
+}
+main .room a h3 {
+    font-size:20px;
+    font-weight:600;
+}
+main .room .package1 {}
+main .room .package1 img {}
+main .room .package1 a span {
+    font-size:18px;
+    font-weight:500;
+}
+main .room .package1 p {
     color:#d9d9d9;
 }
-main .room .packge1 a {
+main .room .package1 a {
     font-size:14px;
     font-weight:600px;
     color:#fff;
@@ -363,26 +386,26 @@ main .room .packge1 a h3 {
     font-size:18px;
     font-weight:600;
 }
-main .room .packge2 {}
-main .room .packge2 a {}
-main .room .packge2 a img {}
-main .room .packge2 a h3 {
+main .room .package2 {}
+main .room .package2 a {}
+main .room .package2 a img {}
+main .room .package2 a h3 {
     font-size:20px;
 }
-main .room .packge2 a span {
+main .room .package2 a span {
     font-size:18px;
 }
-main .room .packge2 a p {
+main .room .package2 a p {
     color:#d9d9d9;
 }
-main .room .packge3 {}
-main .room .packge3 img {}
-main .room .packge3 span {}
-main .room .packge3 p {}
-main .room .packge4 {}
-main .room .packge4 img {}
-main .room .packge4 span {}
-main .room .packge4 p {}
+main .room .package3 {}
+main .room .package3 a img {}
+main .room .package3 a span {}
+main .room .package3 a p {}
+main .room .package4 {}
+main .room .package4 img {}
+main .room .package4 a span {}
+main .room .package4 a p {}
 main .room .move_btn {}
 main .notice {}
 main .notice h3 {}
